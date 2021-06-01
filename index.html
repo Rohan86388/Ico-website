@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Lorem- Lorem ipsum dolor</title>
+  <link rel="icon" href="img/img.jpeg" type="image/gif" sizes="16x16">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar background h-nav-resp" style="z-index: 999;">
+    <ul class="nav-list v-class-resp">
+      <div class="logo"><img src="img/img.jpeg" alt="logo">
+
+      </div>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#roadmap">Lorem Ipsum</a></li>
+      <li><a href="#whitepaper">Contact Us</a></li>
+    </ul>
+    <div class="rightnav v-class-resp">
+      <!--<input type="text" name="search" id="search">
+      <button class="btn btn-sm">Search</button>-->
+    </div>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+  <audio id="myAudio">
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <section class="background firstSection">
+    <div class="box-main" id="home">
+      <div class="firstHalf">
+        <p class="text-big">What is Lorem Ipsum?</p>
+        <p class="text-small py-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="buttons">
+          <a href="https://www.lipsum.com/"><button onclick="playAudio()" class="btn1">Live
+              Chart</button></a>
+          <a href="https://www.lipsum.com/"><button onclick="playAudio()" class="btn">Buy Now</button></a>
+
+        </div>
+      </div>
+      <div class="secondHalf">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font mt-1" id="about">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">About Us </h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        <div class="flex mt-6 justify-center">
+          <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+        </div>
+      </div>
+      <div class="text-left mb-20">
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">● Lorem ipsum dolor 💎
+          x,xxx,xxx,xxx,xxx,xxx
+          <br>● Lorem 🔥 x,xxx,xxx,xxx,xxx,xx
+
+          <br>● Lorem 💰 x,xxx,xxx,xxx,xxx,xxx
+          <br>● Lorem ipsum  🏦 After Lorem
+          <br>● ipsum dolor  💵 $-
+          <br>● Lorem ipsum - After ipsum dolor
+        </p>
+        <h1 class="address"><br><b>Lorem ipsum dolor -</b>
+          <p id="p1">0x0000000000000000000000000000000000001000</p>
+        </h1>
+        <div class="copy-button"><button onclick="playAudio()" onclick="copyToClipboard('#p1')" class="btn1">Copy Address</button></div>
+      </div>
+
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Community-Oriented</h2>
+            <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetuer. </p>
+            <a href="#" class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Lorem ipsum dolor</h2>
+            <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et.</p>
+            <a href="#" class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Lorem ipsum dolor</h2>
+            <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <a href="#" class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="https://wordcounter.net/"> <button onclick="playAudio()"
+          class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Buy
+          Now</button></a>
+    </div>
+  </section>
+  <!--Roadmap-->
+  <div class="text-center" id="roadmap">
+    <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Lorem ipsum</h1>
+    <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">2021</p>
+    <div class="flex mt-6 justify-center">
+      <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+    </div>
+  </div>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+
+      <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+          1</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">1) June- July</h2>
+            <p class="leading-relaxed">● Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+              <br>● Lorem ipsum dolor sit amet
+              <br> ● Lorem ipsum dolor sit amet
+              <br> ● Lorem ipsum dolor sit amet
+              <br> ● Lorem ipsum dolor sit amet
+              <br> ● Lorem ipsum dolor sit amet
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex relative pb-20 sm:items-center md:w-2/3 road mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+          2</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl"> 2) Aug - Sept</h2>
+            <p class="leading-relaxed">● Lorem ipsum dolor sit amet
+              <br> ● Lorem ipsum dolor sit amet
+              <br>● Lorem ipsum dolor sit amet
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto road">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+          3</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+              <circle cx="12" cy="5" r="3"></circle>
+              <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">3) Oct to Dec</h2>
+            <p class="leading-relaxed">● Lorem ipsum dolor sit amet
+              <br>● Lorem ipsum dolor sit amet
+              <br> ● Lorem ipsum dolor sit amet
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="container cards ">
+      <div class="column my-4">
+        <div class="card">
+          <h1><i class="fa fa-lock" aria-hidden="true" style="font-size:100px;"></i></h1>
+          <h1 class="address" style="color: #fff;">Lorem ipsum dolor</h1>
+          <p>Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet, consectetuer ,<br> Lorem ipsum dolor sit amet, = consectetuer </p>
+        </div>
+      </div>
+
+      <div class="column my-4">
+        <div class="card">
+          <h1><i class="fa fa-users" aria-hidden="true" style="font-size:100px;"></i></h1>
+          <h1 class="address py-2" style="color: #fff;">Lorem ipsum dolor</h1>
+          <p>Lorem ipsum dolor sit amet
+            <br>Lorem ipsum dolor sit amet, consectetuer <br> community led.
+          </p>
+        </div>
+      </div>
+      <div class="column my-4">
+        <div class="card">
+          <h1><i class="fa fa-fire" aria-hidden="true" style="font-size:100px;"></i></h1>
+          <h1 class="address py-2" style="color: #fff;">Lorem ipsum dolor</h1>
+          <p>Lorem ipsum dolor sit amet, consectetuer
+            <br>Lorem ipsum dolor<br> launch.
+          </p>
+        </div>
+      </div>
+
+      <div class="column my-4">
+        <div class="card">
+          <h1><i class="fa fa-check " aria-hidden="true" style="font-size:100px;"></i></h1>
+          <h1 class="address py-2" style="color: #fff;">Lorem ipsum</h1>
+          <p>Lorem ipsum dolor sit
+            <br>Lorem ipsum dolor <br> pool was raised.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center pt-4">
+    <p class="address pt-16">------------- </p>
+    <p id="whitepaper" class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 pt-16">Lorem ipsum dolor</p>
+    <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.</p>
+    <div class="copy-button"> <a href="tummy.pdf" download> <button onclick="playAudio()" class="btn1">READ LOREMEMR</button></a></div>
+  </div>
+  <section class="text-gray-600 body-font pt-4">
+    <div class="container px-5 mx-auto">
+
+      <div class="p-2 w-full pt-8 mt-8 text-center">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4"> Follow Us On</h1>
+        <span class="inline-flex p-4 font-bold social">
+          <a class="px-3" href="https://github.com/">Github</a>
+          <a class="px-3" href="https://telegram.org/">Telegram</a>
+          <a class="px-3" href="https://twitter.com/">Twitter</a>
+          <a class="px-3" href="https://bscscan.com/">Bscscan</a>
+        </span>
+      </div>
+    </div>
+  </section>
+  <footer class="background">
+    <p class="text-footer">Copyright &copy; 2021 - All rights reserved</p>
+  </footer>
+  <script src="js/resp.js"></script>
+</body>
+
+</html>
